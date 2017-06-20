@@ -69,7 +69,7 @@ public class AliPay extends CordovaPlugin {
 			 	return true;
 			 }
 			
-			 if (env.equals("sandbox") {
+			 if (env.equals("sandbox")) {
 			 	EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);
 			 }
 
